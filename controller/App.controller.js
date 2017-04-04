@@ -3,20 +3,20 @@ sap.ui.define([
    "sap/m/MessageToast",
    "sap/ui/model/json/JSONModel"
 ], function (Controller, MessageToast, JSONModel) {
-   "use strict"; 
-   return Controller.extend("sap.ui.demo.wt.controller.App", { 
+   "use strict";
+   return Controller.extend("sap.ui.demo.wt.controller.App", {
       onInit : function () {
+         // set data model on view
          var oData = {
-            recipient : { 
-               name : "Ivanilson" 
+            recipient : {
+               name : "Ivanilson"
             }
-         };         
+         };
          var oModel = new JSONModel(oData);
-         this.getView().setModel(oModel);/         
+         this.getView().setModel(oModel);
       },
-      
       onShowHello : function () {
-         MessageToast.show("Olá Ivanilson Costa"); 
-      } 
-   }); 
+         MessageToast.show("Hello Ivanilson");
+      }
+   });
 });
