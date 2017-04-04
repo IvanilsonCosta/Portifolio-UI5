@@ -16,7 +16,7 @@ sap.ui.define([
          this.getView().setModel(oModel);
       },
       onShowHello : function () {
-         MessageToast.show("Hello Ivanilson");
+         MessageToast.show("Hello Ivanilson Costa");
       }
    });
 });
