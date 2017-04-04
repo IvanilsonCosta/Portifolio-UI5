@@ -3,12 +3,11 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Button
-     text="Diga Olá!"
-     press="onShowHello"/>
-   
-   <Input 
-     value="{/recipient/name}"
-     description="Olá {/recipient/name}"
-     valueLiveUpdate="true"
-     width="60%"/>
+      text="Say Hello"
+      press="onShowHello"/>
+   <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
 </mvc:View>
