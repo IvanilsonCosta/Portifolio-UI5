@@ -5,7 +5,7 @@ sap.ui.define([
    "use strict";
    return Controller.extend("sap.ui.demo.wt.controller.App", {
       onShowHello : function () {
-         MessageToast.show("Olá Ivanilson Costa") ;
+         MessageToast.show ("Olá Ivanilson Costa!") ;
       }
    });
 });
